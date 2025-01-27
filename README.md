@@ -1,28 +1,34 @@
-#Matrix Management System
-A C++ program for managing and performing operations on matrices stored in a linked list. This system allows users to dynamically create, manipulate, and store matrices with the following functionality:
+# Matrix Management System
 
-#Features
-Insert New Matrices: Add matrices to a linked list dynamically.
-Matrix Operations:
-Addition of two matrices.
-Subtraction of one matrix from another.
-Multiplication of two matrices.
-Result Storage: Results of matrix operations are stored at the start of the linked list for easy access.
-Matrix Display: View all stored matrices with clear formatting for rows and columns.
-User-Friendly Menu: A console-based menu-driven interface for ease of use.
-#How It Works
-Users can add matrices with custom dimensions and values.
-Perform operations like addition, subtraction, or multiplication on stored matrices.
-Results are inserted at the start of the linked list.
-All matrices are displayed in a neatly formatted grid structure.
-#Technologies Used
-Language: C++
-Data Structures: Linked List
-#Libraries:
-<iostream> for input and output.
-<iomanip> for formatting matrix display.
-Custom matrix operations and linked list implementations.
-#Future Enhancements
-Add support for more matrix operations (e.g., transpose, determinant, inverse).
-Enhance error handling for invalid inputs and incompatible matrices.
-Save and load matrix data from external files.
+A C++ program for managing and performing operations on matrices using a linked list. This console-based application allows users to dynamically create, manipulate, and store matrices, while performing basic matrix operations such as addition, subtraction, and multiplication.
+
+---
+
+## Features
+
+1. **Matrix Insertion**  
+   Add custom matrices with user-defined dimensions and values.
+
+2. **Matrix Operations**  
+   - **Addition**: Add two compatible matrices.  
+   - **Subtraction**: Subtract one matrix from another.  
+   - **Multiplication**: Multiply two compatible matrices.  
+
+3. **Result Storage**  
+   Results of matrix operations are stored dynamically at the start of a linked list for easy retrieval.
+
+4. **Matrix Display**  
+   View all matrices stored in the linked list with properly formatted rows and columns.
+
+5. **User-Friendly Interface**  
+   A menu-driven interface simplifies user interaction with the program.
+
+---
+
+## How to Use
+
+1. **Clone the Repository**  
+   Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/<your-username>/matrix-management-system.git
+   cd matrix-management-system
